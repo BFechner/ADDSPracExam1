@@ -66,12 +66,5 @@ else
 
 void ArtificialPet::play(int minutes)
 {
-	cout << name << " played for " << minutes << " minutes." << endl;
-
-	int hunger = getFullness();
-
-	int depleted = hunger - 2*minutes;
-
-	setFullness(depleted);
 
 }

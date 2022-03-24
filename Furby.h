@@ -13,7 +13,11 @@ private:
 
 
 public:
-	
+	Furby();
+
+	void dance(int minutes);
+
+	void play(int minutes);
 
 };
 

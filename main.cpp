@@ -11,6 +11,8 @@ int main() {
 
 ArtificialPet a("jeff");
 
+Furby b();
+
 cout << a.getFullness() << endl;
 
 a.Feed();
